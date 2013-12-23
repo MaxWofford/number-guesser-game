@@ -6,3 +6,6 @@ The objective of this game is to guess the number in the lowest number of turns.
 In Addition...
 ===
 The feedback you get will be the most demotivational that I've ever made. Expect to feel bad about your life after this.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/MaxWofford/number-guesser-game/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
