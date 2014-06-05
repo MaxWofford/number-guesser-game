@@ -1,0 +1,71 @@
+body {
+	width: 25%;
+	width-min: 480px; 
+	background-image: url(../img/BG.png);
+	background-repeat: no-repeat;
+	background-size: 400px;
+}
+input {
+    border: none;
+    background: none;
+}
+input[number] {
+    color: green;
+}
+button {
+    border: none;
+    background-image: url(../img/Info.png);
+}
+#start {
+    background-image: url(../img/button1.png);
+    color: white;
+    height: 48px;
+    width: 400px;
+}
+#start:hover {
+    background-position:400px 0px;
+    color: grey;
+}
+#numberInput {
+    background-image: url(../img/button2.png);
+    color: white;
+    height: 48px;
+    width: 400px;
+}
+#numberInput:hover {
+    background-position:400px 0px;
+    color: grey;
+}
+#messageOutput {
+    background-image: url(../img/button3.png);
+    color: white;
+    height: 48px;
+    width: 400px;
+}
+#messageOutput:hover {
+    background-position:800px 0px;
+    color: grey;
+}
+#score {
+    background-image: url(../img/button5.png);
+    color: white;
+    height: 48px;
+    width: 400px;
+}
+#score:hover {
+    background-position: 800px 0px;
+    color: grey;
+}
+#submit {
+    background-image: url(../img/button4.png);
+    color: white;
+    height: 48px;
+    width: 400px;
+}
+#submit:hover {
+    background-position:400px 0px;
+    color: grey;
+}
+button {
+    background-color: rgba(0,0,0,0);
+}
