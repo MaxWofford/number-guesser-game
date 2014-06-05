@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <head>
 	<title>you will lose</title>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-	<form>
-		<input type="number" id="only-numberbox" value="10">
-		<input type="submit" id="only-button" name="submitButton" value="I'm feeling lucky" />
-	</form>
-	<div id="numbot"></div>
+	<button onClick="newGame();">Start game</button>
+	<div id="gameContent" style="display: none;" >
+		<form display= "inherit">
+			<input id="numberInput" display="inherit" type="number" placeholder="1-10" min="1" max="10">
+			<input id="messageOutput" display="inherit" type="text" disabled="true">
+		</form>
+	</div>
 </body>
 </html>

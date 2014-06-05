@@ -1,3 +1,12 @@
+function newGame() {
+  document.getElementById("gameContent").style.display = "inline";
+  document.getElementById("numberInput").value = "1";
+  document.getElementById("messageOutput").value = "Ready?";
+  console.log("Cake");
+}
+
+
+/*
 var target = Math.random();
 var score = 0;
 
@@ -22,9 +31,9 @@ default:
   document.getElementById("only-button").value = "I'm feeling" + "lucky...";
 }
 
-if (document.getElementById("only-numberbox").value= target;) {
+if (document.getElementById("only-numberbox").value= target) {
 	document.write("Is there anything else you'd like?<br>");
 }
 else {
 	document.write("Is there anything else you'd like?<br>");
-}
+}*/
