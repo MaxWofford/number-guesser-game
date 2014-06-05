@@ -1,39 +1,28 @@
 function newGame() {
-  document.getElementById("gameContent").style.display = "inline";
-  document.getElementById("numberInput").value = "1";
+  target = Math.ceil(Math.random()*10); //Gives us a new target number
+  score = 0; //Initializes our scoreboard
+  document.getElementById("gameContent").style.display = "inline"; //Makes our form visible
+  document.getElementById("numberInput").value = "1"; //Resets our number input
   document.getElementById("messageOutput").value = "Ready?";
   console.log("Cake");
 }
 
-
-/*
-var target = Math.random();
-var score = 0;
-
-switch(score)
-{
-case 1:
-  document.getElementById("only-button").value = "I'm feeling" + "ok...";
-  break;
-case 2:
-  document.getElementById("only-button").value = "I'm feeling" + "low on self esteem...";
-  break;
- case 3:
-  document.getElementById("only-button").value = "I'm feeling" + "";
-  break;
- case 4:
-  document.getElementById("only-button").value = "I'm feeling" + "like this game is a reflection on my failures in life...";
-  break;
- case 5:
-  document.getElementById("only-button").value = "I'm feeling" + "so bad at this the button can't even think of a better insult...";
-  break;
-default:
-  document.getElementById("only-button").value = "I'm feeling" + "lucky...";
+function submit() {
+  //What do you mean "too many if statements"?!?!?!
+  //console.log("Fcn triggered!");
+  if (document.getElementById("numberInput").value == target) {
+    document.getElementById("messageOutput").value = "You are credit to team! You guessed the number in " + score + " tries!";
+    console.log("Win cake!");
+  } else {
+    score ++;
+    document.getElementById("score").value = score;
+    console.log("Lul didn't get it");
+    if (document.getElementById("numberInput").value < target) {
+      document.getElementById("messageOutput").value = "Too low";
+      
+    } else {
+      document.getElementById("messageOutput").value = "Too high";
+    }
+    
+  }
 }
-
-if (document.getElementById("only-numberbox").value= target) {
-	document.write("Is there anything else you'd like?<br>");
-}
-else {
-	document.write("Is there anything else you'd like?<br>");
-}*/
