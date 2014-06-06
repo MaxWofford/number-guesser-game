@@ -4,6 +4,8 @@ body {
 	background-image: url(../img/BG.png);
 	background-repeat: no-repeat;
 	background-size: 400px;
+    font-size: 50px;
+    float: center;
 }
 input {
     border: none;
@@ -15,6 +17,7 @@ input[number] {
 button {
     border: none;
     background-image: url(../img/Info.png);
+    font-size: .75em;
 }
 #start {
     background-image: url(../img/button1.png);
